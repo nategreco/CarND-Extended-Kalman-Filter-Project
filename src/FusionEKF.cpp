@@ -78,6 +78,12 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 		   0,
 		   0;
     }
+
+	//Prevent division by zero with dataset 2
+    if (fabs(x[0]) < 0.0001 && fabs(x[1]) < 0.0001) {
+	  x[0] = 0.0001;
+	  x[1] = 0.0001;
+	}
 	  
 	//Initialize covariance matrix
 	MatrixXd P;
