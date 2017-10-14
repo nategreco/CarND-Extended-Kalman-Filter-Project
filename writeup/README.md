@@ -12,8 +12,8 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
-[image1]: ./dataset1.JPG "Results 1"
-[image2]: ./dataset2.JPG "Results 2"
+[image1]: ./Dataset1.png "Results 1"
+[image2]: ./Dataset2.png "Results 2"
 
 ---
 
